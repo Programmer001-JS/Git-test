@@ -1,0 +1,85 @@
+CONTACT US PAGE: OVO JE CODE ZA FORM VALIDATION STRANU SA FormGroup i FormControl komponentama 
+sa kompletno uradjenim svim neophodnim stvarima. 
+HTML:
+
+login-page.component.html
+
+<div class="container-fluid">
+    
+    <div class="row justify-content-center" style="margin-top: 40px;">
+      <div class="col-8">
+        <div>
+         
+          <form [formGroup]="form" (ngSubmit)="form.valid && onSubmit()">
+            <h3>Contact Us</h3>
+            <div class="form-group">
+              <label for="userName">User Name:</label>
+              <input  type="text" class="form-control" formControlName="userName"  
+                 [ngClass]="{'is-invalid': form.get('userName').touched && 
+                form.get('userName').invalid}">
+                <div class="invalid-feedback">
+                  <div>Username is required</div>
+          
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input  type="text" class="form-control" formControlName="email"  
+                 [ngClass]="{'is-invalid': form.get('email').touched && 
+                form.get('email').invalid}">
+                <div *ngIf="form.get('email').touched && form.get('email').invalid" class="invalid-feedback">
+                  <div *ngIf="form.get('email').errors.required">Email is required</div>
+                  <div *ngIf="form.get('email').errors.email">Email must be a valid email Address</div>
+              </div>
+            </div>
+              <div class="form-group">
+              <label for="password">Password:</label>
+              <input  type="password" class="form-control" formControlName="password"  
+              [ngClass]="{'is-invalid': form.get('password').touched && 
+             form.get('password').invalid}">
+             <div *ngIf="form.get('password').touched && form.get('password').invalid" class="invalid-feedback">
+              <div *ngIf="form.get('password').errors.required">Password is required</div>
+              <div *ngIf="form.get('password').errors.minlength">Password is must be a letaset 6 characters</div>
+           </div>
+         </div>
+
+            <div class="form-group">
+              <label for="textarea"></label>
+              <textarea formControlName="textarea" type="text" rows="6"  class="form-control" id="textarea"
+                placeholder="Message">Yours Message</textarea>
+            </div>
+            <div class="form-group">
+            <button type="submit" class="btn btn-primary" [disabled]="!form.valid">Send</button>
+            <p>{{name}}</p>
+            </div>
+          </form>
+
+LOGIN.COMPONENT.TS:
+
+
+import { Component,OnInit } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
+
+@Component({
+  selector: 'app-login-page',
+  templateUrl: './login-page.component.html',
+  styleUrls: ['./login-page.component.css']
+})
+export class LoginPageComponent implements OnInit {
+   form = new FormGroup ({
+    userName : new FormControl('',Validators.required),
+    email : new FormControl('',[Validators.required,Validators.email]),
+    password : new FormControl ('',[Validators.required,Validators.minLength(6)]),
+    textarea : new FormControl ('',)
+   })
+   
+  constructor () { }
+  ngOnInit() {
+  }
+  onSubmit() {
+   alert(JSON.stringify(this.form.value))
+
+
+  } 
+}
+
