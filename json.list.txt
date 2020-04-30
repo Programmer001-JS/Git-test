@@ -3,11 +3,11 @@
         "id": 1,
         "name": "Mike Tyson",
         "img_url": "https://image-cdn.essentiallysports.com/wp-content/uploads/20200427141950/mike-tyson_3.jpg",
-        "thumb1": "https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/methode/2019/10/21/4c37d6d0-f3dc-11e9-87ad-fce8e65242a6_image_hires_190248.jpg?itok=5UJGOQhW&v=1571655774",
+        "thumb1": "https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/methode/2019/10/21/4c37d6d0-f3dc-11e9-              87ad-fce8e65242a6_image_hires_190248.jpg?itok=5UJGOQhW&v=1571655774",
         "thumb2": "https://www.boxingnewsonline.net/bn/wp-content/uploads/2019/05/mike-tyson3.jpg",
         "thumb3": "https://cdn.britannica.com/s:290x800/08/4808-004-41878FDC/Mike-Tyson-meeting-Jay-Bright-fight-Buster-1995.jpg",
-        "info": "Michael Gerard "Mike" Tyson (born June 30, 1966) is an American former professional boxer who competed from 1985 to 2005. 
-He reigned as the undisputed world heavyweight champion and holds the record as the youngest boxer to win a heavyweight title,
+        "info": "Michael Gerard "Mike" Tyson (born June 30, 1966) is an American former professional boxer who competed from 1985 - 2005 
+          He reigned as the undisputed world heavyweight champion and holds the record as the youngest boxer to win a heavyweight title,
  at 20 years, four months, and 22 days old.[3] Tyson won his first 19 professional fights by knockout,
  12 of them in the first round. He won the WBC title in 1986 after stopping Trevor Berbick in the second round,
  and added the WBA and IBF titles after defeating James Smith and Tony Tucker in 1987. This made Tyson the first
