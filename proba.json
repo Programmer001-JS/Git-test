@@ -5,9 +5,19 @@
         "info": "Michael Gerard Mike Tyson born June 30 1966 is an American former professional boxer who competed from 1985 to 2005. He reigned as the undisputed world heavyweight champion and holds the record as the youngest boxer to win a heavyweight title,a20 years, four months, and 22 days old. Tyson won his first 19 professional fights by knockout,12 of them in the first round.This made Tyson the first,heavyweight boxer to simultaneously hold the WBA, WBC and IBF titles, and the only heavyweight to successively unify them."
     },
      {
-        "id": 5,
+        "id": 2,
         "name": "Vasyl Lomachenko",
         "info": "Vasyl Anatoliyovych Lomachenko also spelled Vasiliy; born 17 February 1988) is a Ukrainian professional boxer. He is a three-weight world champion, having held the unified WBA (Super), WBO and Ring magazine lightweight titles since 2018 and the WBC lightweight title since 2019 (promoted to 'Franchise Champion' in October 2019), and previously the WBO featherweight title from 2014 to 2015 and the WBO junior-lightweight title from 2016 to 2017."
+    },
+     {
+        "id": 3,
+        "name": "Floyd Mayweather Jr.",
+        "info": "Floyd Joy Mayweather Jr. (born Floyd Joy Sinclair; February 24, 1977) is an American professional boxing promoter and former professional boxer. He competed from 1996 to 2007, 2009 to 2010, 2011 to 2015, and made a one-fight comeback in 2017. During his career, he won fifteen major world titles including The Ring in five weight classes and the lineal championship in four weight classes (twice at welterweight), and retired with an undefeated record. As an amateur, Mayweather won a bronze medal in the featherweight division at the 1996 Olympics, three U.S. Golden Gloves championships (at light flyweight, flyweight, and featherweight), and the U.S. national championship at featherweight."
+    },
+    {
+        "id": 4,
+        "name": "Andre Ward",
+        "info": "Andre Michael Ward (born February 23, 1984) is an American former professional boxer who competed from 2004 to 2017. He retired with an undefeated record and held multiple world titles in two weight classes, including the unified WBA (Super), WBC, Ring magazine, and lineal super middleweight titles between 2009 and 2015; and the unified WBA (Undisputed), IBF, WBO, and Ring light heavyweight titles between 2016 and 2017. During his reign as light heavyweight champion, Ward was ranked as the world's best active boxer, pound for pound, by The Ring magazine and the Transnational Boxing Rankings Board (TBRB), as well as the world's best active boxer in the division by The Ring, the TBRB, and BoxRec."
     }
     
 ]
