@@ -3,7 +3,12 @@
         "id": 1,
         "name": "Mike Tyson",
         "info": "Michael Gerard Mike Tyson born June 30 1966 is an American former professional boxer who competed from 1985 to 2005. He reigned as the undisputed world heavyweight champion and holds the record as the youngest boxer to win a heavyweight title,a20 years, four months, and 22 days old. Tyson won his first 19 professional fights by knockout,12 of them in the first round.This made Tyson the first,heavyweight boxer to simultaneously hold the WBA, WBC and IBF titles, and the only heavyweight to successively unify them."
-    }
+    },
+     {
+        "id": 2,
+        "name": "Anthony Joshua",
+        "info": "Anthony Oluwafemi Olaseni Joshua, OBE born 15 October 1989 is a British professional boxer who is a two-time unified heavyweight champion, having held the WBA (Super), IBF, WBO, and IBO titles since December 2019 and previously between 2016 and June 2019. At regional level, he held the British and Commonwealth heavyweight titles from 2014 to 2016.As an amateur, he represented England at the 2011 World Championships in the super-heavyweight division, winning a silver medal; he also represented Great Britain at the 2012 Olympics, winning gold".
+    },
     
 ]
 
